@@ -1,0 +1,1 @@
+-r https://raw.githubusercontent.com/IKEX01/VX3/main/updates.txt
