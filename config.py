@@ -8,12 +8,12 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "23855030"))
 API_HASH = getenv("API_HASH", "b153175da5f13f048abbce89b49f80cc")
-BOT_TOKEN = getenv("BOT_TOKEN", "7682036592:AAEBwRagGPEikv1J7V1c7P4jbsA7c6-OGFM")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbot:userbot@cluster0.iweqz.mongodb.net/test?retryWrites=true&w=majority")
 
-OWNER_ID = int(getenv("OWNER_ID", "8115484618"))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002070231017"))
+OWNER_ID = int(getenv("OWNER_ID", "5896809199"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002064111110"))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -22,7 +22,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/IKEX01/VX0")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
-STRING1 = getenv("STRING_SESSION1", "BQE8tCUAUrVlQGyF295z9GZUZCFuPUAnD_CM5_A6rH17jimC_aQIKFXLu9uqXxJ8W29KljXUjipNsEVZVsgCKTGUWRb0rxe0sd5xS5sMNml8gpOnn6IR-wRoBj2TaIfqCvFXXOpQOYAg9YaaXauuUQOTyhUTwFBrsOdwah7L_ms8YZVTaNVmsWsf5WOUubIHZ0fTSXZrCP7LpxFDcf0TmkGJG8q9qdqu4q9_F1qQsdFKnfvgkf18bwYT4XOYMP3nP4SYdlFvQxmbrbMxDODLOpwnPt_BkpKvE_Goi_5SstVLKj_cJuGlrFcYy_TFtY-D2W_2_LzBJvU7FU-IrHxwxgtuRety5wAAAAFkjz5mAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
