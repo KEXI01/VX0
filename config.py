@@ -46,7 +46,7 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/storm_techh")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/storm_core")
 
-START_IMG_URL = getenv("START_IMG_URL", "https://envs.sh/Oku.jpg")
+START_IMG_URL = "https://envs.sh/7_W.jpg"
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/9077cd2ba5818efef2d28.jpg")
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://graph.org/file/eb1e2b58e17964083db73.jpg")
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://envs.sh/Ol4.jpg")
