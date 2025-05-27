@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 from Opus import app 
 
-MUST_JOIN_CHANNEL = "STORM_TECHH"
+MUST_JOIN_CHANNEL = "nova_techh"
 SUPPORT_GROUP = "TheVibeVerse"
 
 async def check_user_membership(client: Client, user_id: int, chat_id: str) -> bool:
